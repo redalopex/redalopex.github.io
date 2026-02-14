@@ -1,3 +1,4 @@
+/* Body + background */
 body {
   margin: 0;
   height: 100vh;
@@ -8,6 +9,7 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+/* Card styling */
 .card {
   background: white;
   padding: 40px;
@@ -17,16 +19,7 @@ body {
   max-width: 400px;
 }
 
-.couple-photo {
-  width: 100%;
-  border-radius: 15px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  color: #e75480;
-}
-
+/* Buttons */
 button {
   padding: 12px 25px;
   font-size: 16px;
@@ -41,7 +34,6 @@ button {
   background-color: #ff4d6d;
   color: white;
 }
-
 #yes:hover {
   transform: scale(1.1);
 }
@@ -50,27 +42,31 @@ button {
   background-color: #ddd;
 }
 
+/* Second screen */
 .second-screen {
   text-align: center;
   margin-top: 15vh;
   animation: fadeIn 1s ease forwards;
 }
 
-.second-screen img {
+/* Couple photo */
+.couple-photo {
   width: 300px;
   border-radius: 20px;
   margin-top: 20px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
+/* Floating hearts */
 @keyframes floatUp {
   to {
     transform: translateY(-120vh);
     opacity: 0;
   }
+}
+
+/* Fade in for second screen */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
