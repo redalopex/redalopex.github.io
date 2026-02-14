@@ -23,6 +23,7 @@ yesBtn.addEventListener("click", () => {
     <div style="text-align:center; margin-top:20vh;">
       <h1>YAY!!! 💖</h1>
       <p>You just made me the happiest person ever 🥰 I cannot wait to see you again</p>
+       <img src="us.jpeg" alt="Us together" class="couple-photo">
     </div>
   `;
 
