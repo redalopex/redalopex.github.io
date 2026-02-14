@@ -10,3 +10,9 @@ body {
   padding: 40px;
   text-align: center;
 }
+@keyframes floatUp {
+  to {
+    transform: translateY(-120vh);
+    opacity: 0;
+  }
+}
