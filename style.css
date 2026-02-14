@@ -1,15 +1,55 @@
 body {
-  background: pink;
+  margin: 0;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  font-family: 'Arial', sans-serif;
 }
+
 .card {
   background: white;
   padding: 40px;
+  border-radius: 20px;
   text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
 }
+
+.couple-photo {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #e75480;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+#yes {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#yes:hover {
+  transform: scale(1.1);
+}
+
+#no {
+  background-color: #ddd;
+}
+
 @keyframes floatUp {
   to {
     transform: translateY(-120vh);
