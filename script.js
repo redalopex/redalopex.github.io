@@ -19,12 +19,11 @@ noBtn.addEventListener("mouseover", () => {
 
 // When "Yes" is clicked
 yesBtn.addEventListener("click", () => {
-  document.body.innerHTML = `
-    <div style="text-align:center; margin-top:20vh;">
-      <h1>YAY!!! 💖</h1>
-      <p>You just made me the happiest person ever 🥰</p>
-    </div>
-  `;
+  document.getElementById("first-screen").style.display = "none";
+  document.getElementById("second-screen").style.display = "block";
+  createHearts();
+});
+
 
   createHearts();
 });
