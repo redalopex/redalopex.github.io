@@ -50,6 +50,24 @@ button {
   background-color: #ddd;
 }
 
+.second-screen {
+  text-align: center;
+  margin-top: 15vh;
+  animation: fadeIn 1s ease forwards;
+}
+
+.second-screen img {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 @keyframes floatUp {
   to {
     transform: translateY(-120vh);
