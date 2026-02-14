@@ -1,3 +1,4 @@
+// Buttons
 const noBtn = document.getElementById("no");
 const yesBtn = document.getElementById("yes");
 
@@ -17,18 +18,14 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = randomY + "px";
 });
 
-// When "Yes" is clicked
+// Yes button reveals second screen
 yesBtn.addEventListener("click", () => {
   document.getElementById("first-screen").style.display = "none";
   document.getElementById("second-screen").style.display = "block";
   createHearts();
 });
 
-
-  createHearts();
-});
-
-// Floating hearts animation
+// Floating hearts
 function createHearts() {
   setInterval(() => {
     const heart = document.createElement("div");
